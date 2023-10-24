@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(34, 34, 34);
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+   }
+    100% {
+      opacity: 1;
+   }
+  }
+  
+  .welcome-animation {
+   position: relative;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(34, 34, 34);
+   animation: fadeIn 2s ease-in-out;
+  }
+  
+  .welcome-animation h1 {
+   font-size: 3rem;
+   text-align: center;
+   color: rgb(216, 216, 216);
+  }
+
+  .welcome-animation h4 {
+    text-align: center;
+    font-weight: normal;
+    margin-top: auto;
+    color:aliceblue;
+  }
+
+  .gift {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+  }
